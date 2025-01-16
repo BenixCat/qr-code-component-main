@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: ghostwhite;
+        font-family: sans-serif;
+        line-height: 1.4;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .container {
+        width: 250px;
+        display: grid;
+        grid-template-rows: auto 1fr;
+        justify-content: center;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0 0 15px 2px #ddd;
+        margin: 0 auto;
+        border-radius: 15px;
+        margin-top: 15vh;
+      }
+      .info {
+        display: inline-block;
+        margin: 12px;
+        font-size: 12px;
+        text-align: center;
+      }
+      .qr-code-img {
+        margin: 12px;
+        border-radius: 15px;
+      }
+      .heading-info {
+        margin-bottom: 10px;
+        color: #222;
+      }
+      .paragraph-info {
+        color: #555;
+        font-size: 13px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <figure class="container">
+      <img
+        src="images/image-qr-code.png"
+        alt="Qr"
+        width="225px"
+        class="qr-code-img"
+      />
+      <article class="info">
+        <h2 class="heading-info">
+          Improve your front-end skills by boilding projects
+        </h2>
+        <p class="paragraph-info">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </article>
+    </figure>
+  </body>
+</html>
